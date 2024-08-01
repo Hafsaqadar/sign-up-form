@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="first-container">
+    <h1>Are you ready to fill up the sign up form?</h1>
+    <div class="sub-container">
+    <input type="text" placeholder="please write your answer here" id="input" >
+    <p id="error" style="color: red; display: none;">please enter something before submitting</p>
+    <input type="submit" value="Submit" id="button">
+    </div>
+   </div> 
+
+   <div id="form-container" style="display: none">
+    <h2>please sign up</h2>
+    <form class="sign-up-form">
+        <label for="name" id="">name</label>
+        <input type="text" name="name" required><br>
+        <label for="email">Email</label>
+        <input type="text" name="email" required> <br>
+        <label for="number">phone</label>
+        <input type="text" name="phone" required> <br>
+        <button type="submit" id="secbtn">Sign up</button>
+    </form>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
